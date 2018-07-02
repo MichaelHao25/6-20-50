@@ -1,0 +1,49 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+ body{
+ 	font-size: 16Px;
+ }
+
+.container
+	height 1206px
+	background url('../img/067ecf62dce14992d4e37f26153e22eb-750+1206.jpg') center center/auto 100% no-repeat
+	.form
+		padding-left 70px
+		padding-top 320px
+		.label
+			padding-bottom 40px
+			display flex
+			align-items center
+			font-size 32px
+			color #1072d3
+			height 100px
+			&.pb80
+				padding-bottom 80px
+			i
+				color #ff2520
+				padding-left 20px
+			span
+				min-height 1px
+				width 4.5em
+			input
+				border none
+				outline none
+				background none
+				width 300px
+				border 1px solid #1072d3
+				border-radius 50px
+				line-height 38px
+				padding 30px 50px
+				font-size 32px
+			input[type=submit]
+				color #ffffff
+				background #1072d3
+				margin-left -20px

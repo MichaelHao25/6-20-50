@@ -1,0 +1,58 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+body {
+  font-size: 16Px;
+}
+.container {
+  height: 12.06rem;
+  background: url("../img/067ecf62dce14992d4e37f26153e22eb-750+1206.jpg") center center/auto 100% no-repeat;
+}
+.container .form {
+  padding-left: 0.7rem;
+  padding-top: 3.2rem;
+}
+.container .form .label {
+  padding-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.32rem;
+  color: #1072d3;
+  height: 1rem;
+}
+.container .form .label.pb80 {
+  padding-bottom: 0.8rem;
+}
+.container .form .label i {
+  color: #ff2520;
+  padding-left: 0.2rem;
+}
+.container .form .label span {
+  min-height: 1px;
+  width: 4.5em;
+}
+.container .form .label input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 3rem;
+  border: 1px solid #1072d3;
+  border-radius: 0.5rem;
+  line-height: 0.38rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.32rem;
+}
+.container .form .label input[type=submit] {
+  color: #fff;
+  background: #1072d3;
+  margin-left: -0.2rem;
+}
+
+/*# sourceMappingURL=public.css.map */
